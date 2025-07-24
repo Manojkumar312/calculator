@@ -1,0 +1,33 @@
+#calculator{
+    background-color: black;
+    border-radius: 30px;
+    max-width:400px;
+}
+
+input{
+    width:360px;
+    padding: 20px;
+    text-align: left;
+    background-color: rgba(46, 45, 45, 0.69);
+    color: azure;
+    font-size: larger;
+    text-align: right;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    padding:10px;
+}
+
+
+button{
+    background-color: rgba(107, 103, 103, 0.69);
+    color: aliceblue;
+    border-radius: 50%;
+    border: none;
+    width: 45px;    
+    height:45px;
+    font-weight: bold;
+    cursor: pointer;
+}
